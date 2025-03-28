@@ -43,10 +43,7 @@ export default function WorkSingle({ params }: { params: { slug: string } }) {
 										</h6>
 									</div>
 								</div>
-								<Image width={0}
-									height={0}
-									sizes="100vw"
-									style={{ width: "100%", height: "auto" }} src={project.fullPreview} alt={project.name} className="rounded-3 w-100" />
+								<img src={project.fullPreview} alt={project.name} className="rounded-3 w-100" />
 							</div>
 						</div>
 					</section>
